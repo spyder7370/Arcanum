@@ -36,3 +36,7 @@
 	--depth: 0;
 	--noise: 0;
 }
+
+.twitter-tweet iframe {
+	color-scheme: light !important;
+}

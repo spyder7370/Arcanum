@@ -16,13 +16,13 @@
 	</aside>
 	<nav class="col-span-2 col-start-7">
 		<h6 class="footer-title">Supported Games</h6>
-		<a href="/ml" class="link link-hover">Mobile Legends</a>
+		<a href="/games/ml" class="link link-hover">Mobile Legends</a>
 	</nav>
 	<nav class="col-span-2 col-start-9">
 		<h6 class="footer-title">Quick Links</h6>
 		<a href="/" class="link link-hover">Home</a>
-		<a href="/blog" class="link link-hover">Blog</a>
-		<a href="/contact" class="link link-hover">Contact</a>
+		<a href="/blogs" class="link link-hover">Blog</a>
+		<a href="mailto:splr9904@gmail.com" class="link link-hover">Contact</a>
 		<a href="/disclaimer" class="link link-hover">Disclaimer</a>
 	</nav>
 </footer>

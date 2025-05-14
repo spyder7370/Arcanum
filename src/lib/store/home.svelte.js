@@ -41,7 +41,6 @@ export const home = {
 			if (props?.heroChildren)
 				homeVariable.heroProps.heroChildren = props?.heroChildren;
 		}
-		console.log('home variable', homeVariable);
 	},
 	set bannerProps(bannerProps) {
 		this.value = { ...this.value, bannerProps };

@@ -16,7 +16,7 @@
 	</aside>
 	<nav class="col-span-2 col-start-7">
 		<h6 class="footer-title">Supported Games</h6>
-		<a href="/games/ml" class="link link-hover">Mobile Legends</a>
+		<a href="/titles/ml" class="link link-hover">Mobile Legends</a>
 	</nav>
 	<nav class="col-span-2 col-start-9">
 		<h6 class="footer-title">Quick Links</h6>

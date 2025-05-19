@@ -39,7 +39,7 @@
 	<div
 		class="grid grid-cols-1 gap-5 overflow-hidden sm:grid-cols-2 md:grid-cols-3"
 	>
-		<a href="/games/ml">
+		<a href="/titles/ml">
 			<div
 				class="group hover:border-info relative rounded-xl border-1 border-transparent"
 			>
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 		</a>
-		<a href="/games/arknights">
+		<a href="/titles/arknights">
 			<div
 				class="group hover:border-info relative rounded-xl border-1 border-transparent"
 			>
@@ -79,7 +79,7 @@
 				</div>
 			</div>
 		</a>
-		<a href="/games/genshin">
+		<a href="/titles/genshin">
 			<div
 				class="group hover:border-info relative rounded-xl border-1 border-transparent"
 			>

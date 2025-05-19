@@ -3,7 +3,6 @@
 	import { onDestroy, onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import { home } from '$lib/store/home.svelte';
-	import DownArrow from '$lib/images/icons/DownArrow.svg';
 	let showFilters = $state(false);
 	let queryString = $state('');
 	let formFilters = $state({

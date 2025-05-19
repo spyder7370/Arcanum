@@ -8,7 +8,7 @@
 			<div class="max-w-lg">
 				<div class="breadcrumbs mb-5 flex justify-center text-sm">
 					<ul>
-						{#each heroProps?.breadcrumbs as breadcrumb, i}
+						{#each heroProps?.breadcrumbs as breadcrumb}
 							<li><a href={breadcrumb?.url}>{breadcrumb?.text}</a></li>
 						{/each}
 					</ul>

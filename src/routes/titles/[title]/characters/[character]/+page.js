@@ -45,4 +45,5 @@ https://mobile-legends.fandom.com/wiki/Ling
 https://www.oneesports.gg/mobile-legends/ling-best-build-guide/
 https://alexandregames.com/mobile-legends/ling-en-mlbb.html
 https://mlcounter.com/heroes/ling/
+https://www.mobilelegends.com/hero/detail?channelid=2678820&heroid=84
 */

@@ -1,6 +1,6 @@
 <script>
 	let { data } = $props();
-	import { onDestroy, onMount } from 'svelte';
+	import { onDestroy } from 'svelte';
 	import { home } from '$lib/store/home.svelte';
 	import { slide } from 'svelte/transition';
 	import TitleSidebar from '$lib/components/sidebar/TitleSidebar.svelte';
@@ -55,10 +55,6 @@
 
 	const onChange = (e) => {
 		formFilters[e?.target?.name] = e?.target?.value;
-	};
-
-	const onSubmit = () => {
-		console.log('Form submitted', formFilters);
 	};
 </script>
 

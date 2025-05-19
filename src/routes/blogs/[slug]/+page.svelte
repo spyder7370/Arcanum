@@ -1,5 +1,4 @@
 <script>
-	let { data } = $props();
 	import { onDestroy, onMount } from 'svelte';
 	import { home } from '$lib/store/home.svelte';
 

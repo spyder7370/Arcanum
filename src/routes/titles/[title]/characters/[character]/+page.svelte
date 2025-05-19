@@ -2,9 +2,7 @@
 	let { data } = $props();
 	import { onDestroy, onMount } from 'svelte';
 	import { home } from '$lib/store/home.svelte';
-	import TitleSidebar from '$lib/components/sidebar/TitleSidebar.svelte';
 	import CharacterSidebar from '$lib/components/sidebar/CharacterSidebar.svelte';
-	let showFilters = $state(false);
 	let activeTabState = $state('introduction');
 
 	onMount(() => {

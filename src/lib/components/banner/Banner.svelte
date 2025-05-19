@@ -1,7 +1,6 @@
 <script>
 	import { onDestroy } from 'svelte';
 	import Hero from '../hero/Hero.svelte';
-	import { on } from 'svelte/events';
 	let { bannerProps, heroProps } = $props();
 	let initialImage = $derived.by(() => {
 		if (bannerProps?.images?.length > 0) {
@@ -81,7 +80,7 @@
 			url('{initialImage}');
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: ${bannerProps?.bannerPosition || 'center center'};"
+		background-position: {bannerProps?.bannerPosition || 'center center'};"
 	class="pt-42 opacity-100 transition-opacity duration-700"
 >
 	<Hero {heroProps} />

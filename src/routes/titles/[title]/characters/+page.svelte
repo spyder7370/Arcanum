@@ -2,7 +2,6 @@
 	import { onDestroy, onMount } from 'svelte';
 	import { home } from '$lib/store/home.svelte';
 	import { slide } from 'svelte/transition';
-	import Container from '$lib/components/container/Container.svelte';
 	import TitleSidebar from '$lib/components/sidebar/TitleSidebar.svelte';
 	let showFilters = $state(false);
 	let formFilters = $state({
@@ -35,10 +34,6 @@
 
 	const onChange = (e) => {
 		formFilters[e?.target?.name] = e?.target?.value;
-	};
-
-	const onSubmit = () => {
-		console.log('Form submitted', formFilters);
 	};
 </script>
 

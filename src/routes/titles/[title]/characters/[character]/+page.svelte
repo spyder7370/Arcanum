@@ -62,14 +62,14 @@
 				<div
 					class="bg-base-100 grid grid-cols-1 gap-5 rounded-2xl p-6 md:grid-cols-7"
 				>
-					<div class="col-span-1 flex items-center justify-center">
+					<div class="flex items-center justify-center md:col-span-1">
 						<img
 							src="https://static.wikia.nocookie.net/mobile-legends/images/3/3f/Assassin_Icon.png"
 							alt="Album"
 							class="size-15 object-cover"
 						/>
 					</div>
-					<div class="col-span-6 flex flex-col justify-center">
+					<div class="flex flex-col justify-center md:col-span-6">
 						<div class="mb-2 text-sm font-medium text-gray-500">Trait</div>
 						Assassins are agile heroes skilled at picking off vulnerable targets
 						with precision and speed. They rely on mobility, timing, and positioning
@@ -166,7 +166,7 @@
 				<div class="font-mono text-lg font-bold">Pros & Cons</div>
 				<div class="divider divider-success"></div>
 				<div
-					class="stats stats-vertical lg:stats-horizontal grid w-full grid-cols-2"
+					class="stats stats-vertical lg:stats-horizontal grid w-full grid-cols-1 sm:grid-cols-2"
 				>
 					<div class="stat block">
 						<div class="text-xl font-bold text-white">Pros</div>
@@ -223,14 +223,14 @@
 					<div
 						class="collapse-title grid grid-cols-1 gap-5 rounded-2xl p-6 md:grid-cols-7"
 					>
-						<div class="col-span-1 flex items-center justify-center">
+						<div class="flex items-center justify-center md:col-span-1">
 							<img
 								src="https://static.wikia.nocookie.net/mobile-legends/images/6/68/Cloud_Walker.png"
 								alt="Album"
 								class="size-15 object-cover"
 							/>
 						</div>
-						<div class="col-span-6 flex flex-col justify-center">
+						<div class="flex flex-col justify-center md:col-span-6">
 							<div class="mb-2 text-sm font-medium text-gray-500">
 								Cloud Walker
 							</div>
@@ -259,14 +259,14 @@
 					<div
 						class="collapse-title grid grid-cols-1 gap-5 rounded-2xl p-6 md:grid-cols-7"
 					>
-						<div class="col-span-1 flex items-center justify-center">
+						<div class="flex items-center justify-center md:col-span-1">
 							<img
 								src="https://static.wikia.nocookie.net/mobile-legends/images/1/14/Finch_Poise.png"
 								alt="Album"
 								class="size-15 object-cover"
 							/>
 						</div>
-						<div class="col-span-6 flex flex-col justify-center">
+						<div class="flex flex-col justify-center md:col-span-6">
 							<div class="mb-2 text-sm font-medium text-gray-500">
 								Finch Poise
 							</div>
@@ -299,14 +299,14 @@
 					<div
 						class="collapse-title grid grid-cols-1 gap-5 rounded-2xl p-6 md:grid-cols-7"
 					>
-						<div class="col-span-1 flex items-center justify-center">
+						<div class="flex items-center justify-center md:col-span-1">
 							<img
 								src="https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Defiant_Sword.png"
 								alt="Album"
 								class="size-15 object-cover"
 							/>
 						</div>
-						<div class="col-span-6 flex flex-col justify-center">
+						<div class="flex flex-col justify-center md:col-span-6">
 							<div class="mb-2 text-sm font-medium text-gray-500">
 								Defiant Sword (Ground)
 							</div>
@@ -330,14 +330,14 @@
 					<div
 						class="collapse-title grid grid-cols-1 gap-5 rounded-2xl p-6 md:grid-cols-7"
 					>
-						<div class="col-span-1 flex items-center justify-center">
+						<div class="flex items-center justify-center md:col-span-1">
 							<img
 								src="https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Defiant_Sword_-_Finch_Poise.png"
 								alt="Album"
 								class="size-15 object-cover"
 							/>
 						</div>
-						<div class="col-span-6 flex flex-col justify-center">
+						<div class="flex flex-col justify-center md:col-span-6">
 							<div class="mb-2 text-sm font-medium text-gray-500">
 								Defiant Sword (Wall Mounted)
 							</div>
@@ -365,14 +365,14 @@
 					<div
 						class="collapse-title grid grid-cols-1 gap-5 rounded-2xl p-6 md:grid-cols-7"
 					>
-						<div class="col-span-1 flex items-center justify-center">
+						<div class="flex items-center justify-center md:col-span-1">
 							<img
 								src="https://static.wikia.nocookie.net/mobile-legends/images/3/30/Tempest_of_Blades.png"
 								alt="Album"
 								class="size-15 object-cover"
 							/>
 						</div>
-						<div class="col-span-6 flex flex-col justify-center">
+						<div class="flex flex-col justify-center md:col-span-6">
 							<div class="mb-2 text-sm font-medium text-gray-500">
 								Tempest of Blades
 							</div>
@@ -405,14 +405,14 @@
 					<div
 						class="collapse-title grid grid-cols-1 gap-5 rounded-2xl p-6 md:grid-cols-7"
 					>
-						<div class="col-span-1 flex items-center justify-center">
+						<div class="flex items-center justify-center md:col-span-1">
 							<img
 								src="https://static.wikia.nocookie.net/mobile-legends/images/7/76/The_Oriental_Fighters_BUFF.png"
 								alt="Album"
 								class="size-15 object-cover"
 							/>
 						</div>
-						<div class="col-span-6 flex flex-col justify-center">
+						<div class="flex flex-col justify-center md:col-span-6">
 							<div class="mb-2 text-sm font-medium text-gray-500">
 								The Oriental Fighters
 							</div>
@@ -455,7 +455,7 @@
 			<div class="mb-10">
 				<div class="font-mono text-lg font-bold">Equipments</div>
 				<div class="divider divider-success"></div>
-				<div class="mt-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-7">
+				<div class="mt-5 grid grid-cols-3 gap-5 sm:grid-cols-5 md:grid-cols-7">
 					<div class="tooltip" data-tip="Tough Boots">
 						<a href="/titles/ml/equipments/items/Tough_Boots">
 							<img
@@ -515,7 +515,7 @@
 			<div class="mb-10">
 				<div class="font-mono text-lg font-bold">Emblems</div>
 				<div class="divider divider-success"></div>
-				<div class="mt-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-7">
+				<div class="mt-5 grid grid-cols-3 gap-5 sm:grid-cols-5 md:grid-cols-7">
 					<div class="tooltip" data-tip="Assassin Emblem">
 						<a href="/titles/ml/equipments/emblems/assassin_emblem">
 							<img
@@ -557,7 +557,7 @@
 			<div class="mb-10">
 				<div class="font-mono text-lg font-bold">Spells</div>
 				<div class="divider divider-success"></div>
-				<div class="mt-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-7">
+				<div class="mt-5 grid grid-cols-3 gap-5 sm:grid-cols-5 md:grid-cols-7">
 					<div class="tooltip" data-tip="Ice Retribution">
 						<a href="/titles/ml/equipments/spells/Ice_Retribution">
 							<img
@@ -572,7 +572,7 @@
 			<div class="mb-10">
 				<div class="font-mono text-lg font-bold">Skill Combos</div>
 				<div class="divider divider-success"></div>
-				<div class="mt-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-9">
+				<div class="mt-5 grid grid-cols-3 gap-5 sm:grid-cols-5 md:grid-cols-9">
 					<div class="tooltip" data-tip="Skill 1">
 						<a>
 							<img
@@ -694,7 +694,7 @@
 					Ling works best with support heroes with CC abilities, that make Ling
 					more flexible in different situations.
 				</div>
-				<div class="mt-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-6">
+				<div class="mt-5 grid grid-cols-3 gap-5 sm:grid-cols-4 md:grid-cols-6">
 					<div class="tooltip" data-tip="Angela">
 						<a href="/titles/ml/characters/angela">
 							<img
@@ -740,7 +740,7 @@
 					Ling's excellent pursuit abilities and high burst damage make him
 					strong against squishy heroes.
 				</div>
-				<div class="mt-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-6">
+				<div class="mt-5 grid grid-cols-3 gap-5 sm:grid-cols-4 md:grid-cols-6">
 					<div class="tooltip" data-tip="Layla">
 						<a href="/titles/ml/characters/layla">
 							<img
@@ -786,7 +786,7 @@
 					Ling is countered by heroes with strong single-target CC and high
 					burst damage, as they can easily control Ling and burst him down.
 				</div>
-				<div class="my-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-6">
+				<div class="my-5 grid grid-cols-3 gap-5 sm:grid-cols-4 md:grid-cols-6">
 					<div class="tooltip" data-tip="Khufra">
 						<a href="/titles/ml/characters/khufra">
 							<img
@@ -828,7 +828,7 @@
 					Ling is countered by items with strong physical defense or could
 					inflict invulnerability.
 				</div>
-				<div class="my-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-6">
+				<div class="my-5 grid grid-cols-3 gap-5 sm:grid-cols-4 md:grid-cols-6">
 					<div class="tooltip" data-tip="Immortality">
 						<a href="/titles/ml/equipments/items/immortality">
 							<img

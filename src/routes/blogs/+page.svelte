@@ -42,7 +42,7 @@
 </svelte:head>
 
 {#snippet heroFooter()}
-	<div class="flex w-lg flex-row gap-2 pt-5">
+	<div class="flex w-full flex-col gap-2 pt-5 md:w-lg md:flex-row">
 		<button
 			onclick={() => (showFilters = !showFilters)}
 			class="btn btn-accent"
@@ -53,7 +53,7 @@
 			type="text"
 			name="query"
 			placeholder="Type here"
-			class="input border-accent bg-base-200/50"
+			class="input border-accent bg-base-200/50 w-full"
 		/>
 		<button onclick={onSubmit} class="btn btn-accent btn-soft">Search</button>
 	</div>
@@ -61,7 +61,7 @@
 		<div
 			in:slide={{ duration: 200 }}
 			out:slide={{ duration: 200 }}
-			class="card bg-base-100 mt-5 w-full p-5 text-left shadow-sm"
+			class="card bg-base-100/60 mt-5 w-full p-5 text-left shadow-sm"
 		>
 			<p class="my-3">Titles</p>
 			<form

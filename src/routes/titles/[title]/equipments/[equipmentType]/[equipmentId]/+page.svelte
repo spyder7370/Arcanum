@@ -63,7 +63,7 @@
 						<div class="font-mono text-lg font-bold">Sub Emblem(s)</div>
 						<div class="divider divider-secondary"></div>
 						<div
-							class="my-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-8"
+							class="my-5 grid grid-cols-3 gap-5 sm:grid-cols-4 md:grid-cols-8"
 						>
 							<div class="tooltip" data-tip="Rupture">
 								<a href="/titles/ml/equipments/emblems/rupture">
@@ -142,7 +142,7 @@
 						<div class="font-mono text-lg font-bold">Sub Equipment(s)</div>
 						<div class="divider divider-accent"></div>
 						<div
-							class="my-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-8"
+							class="my-5 grid grid-cols-3 gap-5 sm:grid-cols-4 md:grid-cols-8"
 						>
 							<div class="tooltip" data-tip="Magic Wand">
 								<a href="/titles/ml/equipments/items/magic-wand">
@@ -219,7 +219,7 @@
 						<div class="font-mono text-lg font-bold">Parent Equipment(s)</div>
 						<div class="divider divider-warning"></div>
 						<div
-							class="my-5 grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-8"
+							class="my-5 grid grid-cols-3 gap-5 sm:grid-cols-4 md:grid-cols-8"
 						>
 							<div class="tooltip" data-tip="Retribution">
 								<a href="/titles/ml/equipments/spells/Retribution">

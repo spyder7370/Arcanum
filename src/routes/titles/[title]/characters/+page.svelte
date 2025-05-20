@@ -61,7 +61,7 @@
 		<div
 			in:slide={{ duration: 200 }}
 			out:slide={{ duration: 200 }}
-			class="card bg-base-100 mt-5 w-full p-5 text-left shadow-sm"
+			class="card bg-base-100/60 mt-5 w-full p-5 text-left shadow-sm"
 		>
 			<p class="my-3">Roles</p>
 			<form
@@ -238,7 +238,9 @@
 {/snippet}
 
 <TitleSidebar active="characters">
-	<div class="grid grid-cols-2 gap-5 overflow-hidden p-2 lg:grid-cols-4">
+	<div
+		class="grid grid-cols-2 gap-5 overflow-hidden p-2 sm:grid-cols-3 lg:grid-cols-4"
+	>
 		<a href="/titles/ml/characters/ling">
 			<div
 				class=" card bg-base-100 image-full hover:border-success size-80 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#6EFF9A]"
@@ -264,7 +266,7 @@
 						</div>
 					</div>
 					<div class="grow-0 p-6">
-						<div class="text-lg font-bold text-white">Ling</div>
+						<div class="text-lg font-bold wrap-anywhere text-white">Ling</div>
 						<div class="mt-2 font-mono text-xs text-white">
 							Assassin | Fighter
 						</div>
@@ -298,7 +300,7 @@
 						</div>
 					</div>
 					<div class="grow-0 p-6">
-						<div class="text-lg font-bold text-white">Kimmy</div>
+						<div class="text-lg font-bold wrap-anywhere text-white">Kimmy</div>
 						<div class="mt-2 font-mono text-xs text-white">Marksman | Mage</div>
 						<div class="mt-2 font-mono text-xs text-white">Magic Damage</div>
 					</div>

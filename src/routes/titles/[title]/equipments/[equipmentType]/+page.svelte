@@ -100,7 +100,7 @@
 		<div
 			in:slide={{ duration: 200 }}
 			out:slide={{ duration: 200 }}
-			class="card bg-base-100 mt-5 w-full p-5 text-left shadow-sm"
+			class="card bg-base-100/60 mt-5 w-full p-5 text-left shadow-sm"
 		>
 			<p class="my-3">Roles</p>
 			<form
@@ -161,10 +161,12 @@
 
 {#if pageProps.id === 'emblems'}
 	<TitleSidebar active={pageProps.id}>
-		<div class="grid grid-cols-2 gap-5 overflow-hidden p-2 lg:grid-cols-4">
+		<div
+			class="grid grid-cols-2 gap-5 overflow-hidden p-2 md:grid-cols-3 lg:grid-cols-4"
+		>
 			<a href="/titles/ml/equipments/emblems/assassin">
 				<div
-					class="card bg-base-100 image-full hover:border-secondary size-40 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#FFB3A3]"
+					class="card bg-base-100 image-full hover:border-secondary size-50 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#FFB3A3]"
 				>
 					<figure>
 						<img
@@ -175,25 +177,27 @@
 					</figure>
 					<div class="group card-body flex flex-col justify-end p-0">
 						<div class="grow-0 p-6">
-							<div class="text-lg font-bold text-white">Assassin</div>
+							<div class="text-lg font-bold wrap-anywhere text-white">
+								Assassin
+							</div>
 						</div>
 					</div>
 				</div>
 			</a>
 			<a href="/titles/ml/equipments/emblems/mage">
 				<div
-					class=" card bg-base-100 image-full hover:border-secondary size-40 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#FFB3A3]"
+					class="card bg-base-100 image-full hover:border-secondary size-50 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#FFB3A3]"
 				>
 					<figure>
 						<img
-							class="w-full mask-b-from-0% mask-b-to-99% object-scale-down"
+							class="w-full mask-b-from-0% mask-b-to-99% object-cover"
 							src="https://mlbb.io/_next/image?url=%2Fimages%2Femblem%2Fmain%2Fmage.png&w=128&q=75"
 							alt="Shoes"
 						/>
 					</figure>
 					<div class="group card-body flex flex-col justify-end p-0">
 						<div class="grow-0 p-6">
-							<div class="text-lg font-bold text-white">Mage</div>
+							<div class="text-lg font-bold wrap-anywhere text-white">Mage</div>
 						</div>
 					</div>
 				</div>
@@ -202,10 +206,12 @@
 	</TitleSidebar>
 {:else if pageProps.id === 'spells'}
 	<TitleSidebar active={pageProps.id}>
-		<div class="grid grid-cols-2 gap-5 overflow-hidden p-2 lg:grid-cols-4">
+		<div
+			class="grid grid-cols-2 gap-5 overflow-hidden p-2 md:grid-cols-3 lg:grid-cols-4"
+		>
 			<a href="/titles/ml/equipments/spells/retribution">
 				<div
-					class=" card bg-base-100 image-full hover:border-warning size-40 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#E9FF6A]"
+					class="card bg-base-100 image-full hover:border-warning size-50 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#E9FF6A]"
 				>
 					<figure>
 						<img
@@ -216,25 +222,29 @@
 					</figure>
 					<div class="group card-body flex flex-col justify-end p-0">
 						<div class="grow-0 p-6">
-							<div class="text-lg font-bold text-white">Ice Retribution</div>
+							<div class="text-lg font-bold wrap-anywhere text-white">
+								Ice Retribution
+							</div>
 						</div>
 					</div>
 				</div>
 			</a>
 			<a href="/titles/ml/equipments/spells/vengeance">
 				<div
-					class=" card bg-base-100 image-full hover:border-warning size-40 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#E9FF6A]"
+					class="card bg-base-100 image-full hover:border-warning size-50 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#E9FF6A]"
 				>
 					<figure>
 						<img
-							class="w-full mask-b-from-0% mask-b-to-99% object-scale-down"
+							class="w-full mask-b-from-0% mask-b-to-99% object-cover"
 							src="https://static.wikia.nocookie.net/mobile-legends/images/8/85/Vengeance.png"
 							alt="Shoes"
 						/>
 					</figure>
 					<div class="group card-body flex flex-col justify-end p-0">
 						<div class="grow-0 p-6">
-							<div class="text-lg font-bold text-white">Vengeance</div>
+							<div class="text-lg font-bold wrap-anywhere text-white">
+								Vengeance
+							</div>
 						</div>
 					</div>
 				</div>
@@ -243,10 +253,12 @@
 	</TitleSidebar>
 {:else if pageProps.id === 'equipments'}
 	<TitleSidebar active={pageProps.id}>
-		<div class="grid grid-cols-2 gap-5 overflow-hidden p-2 lg:grid-cols-4">
+		<div
+			class="grid grid-cols-2 gap-5 overflow-hidden p-2 md:grid-cols-3 lg:grid-cols-4"
+		>
 			<a href="/titles/ml/equipments/items/divine-glaive">
 				<div
-					class=" card bg-base-100 image-full hover:border-accent size-40 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#C19CFF]"
+					class="card bg-base-100 image-full hover:border-accent size-50 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#C19CFF]"
 				>
 					<figure>
 						<img
@@ -257,7 +269,9 @@
 					</figure>
 					<div class="group card-body flex flex-col justify-end p-0">
 						<div class="grow-0 p-6">
-							<div class="text-lg font-bold text-white">Divine Glaive</div>
+							<div class="text-lg font-bold wrap-anywhere text-white">
+								Divine Glaive
+							</div>
 							<div class="mt-2 font-mono text-xs text-white">Magic Damage</div>
 						</div>
 					</div>
@@ -265,18 +279,20 @@
 			</a>
 			<a href="/titles/ml/equipments/items/berserkers-fury">
 				<div
-					class=" card bg-base-100 image-full hover:border-accent size-40 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#C19CFF]"
+					class="card bg-base-100 image-full hover:border-accent size-50 w-full shadow-sm hover:border-1 hover:shadow-[0_0_10px_#C19CFF]"
 				>
 					<figure>
 						<img
-							class="w-full mask-b-from-0% mask-b-to-99% object-scale-down"
+							class="w-full mask-b-from-0% mask-b-to-99% object-cover"
 							src="https://mlcounter.com/wp-content/uploads/2022/04/Berserkers_Fury.png"
 							alt="Shoes"
 						/>
 					</figure>
 					<div class="group card-body flex flex-col justify-end p-0">
 						<div class="grow-0 p-6">
-							<div class="text-lg font-bold text-white">Berserker's Fury</div>
+							<div class="text-lg font-bold wrap-anywhere text-white">
+								Berserker's Fury
+							</div>
 							<div class="mt-2 font-mono text-xs text-white">
 								Physical Damage
 							</div>

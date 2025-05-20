@@ -39,6 +39,7 @@
 
 .twitter-tweet iframe {
 	color-scheme: light !important;
+	width: 100% !important;
 }
 
 .hide-scrollbar {

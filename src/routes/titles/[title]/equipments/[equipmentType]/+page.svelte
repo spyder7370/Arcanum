@@ -59,7 +59,7 @@
 </script>
 
 <svelte:head>
-	<title>Equipments</title>
+	<title>Mobile Legends | Equipments</title>
 	<meta name="description" content="Arcanum" />
 </svelte:head>
 

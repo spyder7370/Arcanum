@@ -1,9 +1,9 @@
 import { redirect } from '@sveltejs/kit';
 
 export const load = ({ params }) => {
-	if (params.slug === 'ml')
+	if (params.title === 'ml')
 		return {
-			slug: params.slug,
+			title: params.title,
 		};
 	redirect(308, '/coming-soon');
 };

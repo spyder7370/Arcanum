@@ -20,7 +20,14 @@ export default [
 		},
 	},
 	{
-		files: ['**/*.svelte', '**/*.svelte.js'],
+		files: ['**/*.svelte', '**/*.svelte.js', '**/*.js'],
 		languageOptions: { parserOptions: { svelteConfig } },
+	},
+	{
+		settings: {
+			svelte: {
+				ignoreWarnings: ['svelte/require-each-key'],
+			},
+		},
 	},
 ];

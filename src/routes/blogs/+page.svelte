@@ -3,7 +3,6 @@
 	import { onDestroy, onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import { home } from '$lib/store/home.svelte';
-	import DownArrow from '$lib/images/icons/DownArrow.svg';
 	let showFilters = $state(false);
 	let queryString = $state('');
 	let formFilters = $state({
@@ -43,7 +42,7 @@
 </svelte:head>
 
 {#snippet heroFooter()}
-	<div class="flex w-full flex-row gap-2 pt-5">
+	<div class="flex w-full flex-col gap-2 pt-5 md:w-lg md:flex-row">
 		<button
 			onclick={() => (showFilters = !showFilters)}
 			class="btn btn-accent"
@@ -54,7 +53,7 @@
 			type="text"
 			name="query"
 			placeholder="Type here"
-			class="input"
+			class="input border-accent bg-base-200/50 w-full"
 		/>
 		<button onclick={onSubmit} class="btn btn-accent btn-soft">Search</button>
 	</div>
@@ -62,7 +61,7 @@
 		<div
 			in:slide={{ duration: 200 }}
 			out:slide={{ duration: 200 }}
-			class="card bg-base-100 mt-5 w-full p-5 text-left shadow-sm"
+			class="card bg-base-100/60 mt-5 w-full p-5 text-left shadow-sm"
 		>
 			<p class="my-3">Titles</p>
 			<form
@@ -182,7 +181,7 @@
 					<p class="my-2 font-mono">
 						May 8, 2025 |
 						<a
-							href="/games/ml"
+							href="/titles/ml"
 							target="_blank"
 							class="link link-accent link-hover"
 							>Mobile Legends
@@ -372,13 +371,3 @@
 		</div>
 	</div>
 </Container>
-
-<style>
-	.hide-scrollbar {
-		-ms-overflow-style: none; /* Internet Explorer 10+ */
-		scrollbar-width: none; /* Firefox */
-	}
-	.hide-scrollbar::-webkit-scrollbar {
-		display: none; /* Safari and Chrome */
-	}
-</style>

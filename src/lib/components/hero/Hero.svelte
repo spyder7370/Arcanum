@@ -5,7 +5,14 @@
 {#if !!heroProps?.title || !!heroProps?.description || !!heroProps?.breadcrumbs || !!heroProps?.heroChildren}
 	<div class="hero py-[4rem]">
 		<div class="hero-content text-center">
-			<div class="max-w-lg">
+			<div class="max-w-xs sm:max-w-lg">
+				<div class="breadcrumbs mb-5 flex justify-center text-sm">
+					<ul>
+						{#each heroProps?.breadcrumbs as breadcrumb}
+							<li><a href={breadcrumb?.url}>{breadcrumb?.text}</a></li>
+						{/each}
+					</ul>
+				</div>
 				<h1 class="text-4xl font-bold">
 					{heroProps?.title}
 				</h1>

@@ -1,6 +1,8 @@
 let initialState = {
 	bannerProps: {
 		image: null,
+		images: null,
+		bannerPosition: null,
 	},
 	heroProps: {
 		title: null,
@@ -13,6 +15,8 @@ let initialState = {
 let homeVariable = $state({
 	bannerProps: {
 		image: null,
+		images: null,
+		bannerPosition: null,
 	},
 	heroProps: {
 		title: null,
@@ -30,6 +34,9 @@ export const home = {
 		if (newValue?.bannerProps) {
 			const props = newValue?.bannerProps;
 			if (props?.image) homeVariable.bannerProps.image = props?.image;
+			if (props?.images) homeVariable.bannerProps.images = props?.images;
+			if (props?.bannerPosition)
+				homeVariable.bannerProps.bannerPosition = props?.bannerPosition;
 		}
 		if (newValue?.heroProps) {
 			const props = newValue?.heroProps;

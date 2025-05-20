@@ -1,5 +1,4 @@
 <script>
-	let { data } = $props();
 	import { onDestroy, onMount } from 'svelte';
 	import { home } from '$lib/store/home.svelte';
 
@@ -31,7 +30,7 @@
 				<div class="space-y-5 lg:space-y-8">
 					<div class="flex items-center gap-x-5 font-mono">
 						<a
-							href="/games/ml"
+							href="/titles/ml"
 							target="_blank"
 							class="badge badge-md badge-soft badge-info"
 						>

@@ -36,6 +36,11 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Mobile Legends | Ling</title>
+	<meta name="description" content="Arcanum" />
+</svelte:head>
+
 {#snippet heroFooter()}
 	<div class="h-20"></div>
 {/snippet}

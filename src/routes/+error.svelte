@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Page Not Found</title>
+	<meta name="description" content="Arcanum" />
+</svelte:head>
+
 <div class="mt-10 flex justify-center">
 	<svg
 		class="animate-bounce-slow h-40 w-40 text-red-300"

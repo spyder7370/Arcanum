@@ -17,6 +17,11 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Blog</title>
+	<meta name="description" content="Arcanum" />
+</svelte:head>
+
 {#snippet heroFooter()}
 	<div class="h-30"></div>
 {/snippet}

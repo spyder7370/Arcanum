@@ -38,7 +38,7 @@
 </script>
 
 <svelte:head>
-	<title>Characters</title>
+	<title>Mobile Legends | Characters</title>
 	<meta name="description" content="Arcanum" />
 </svelte:head>
 
